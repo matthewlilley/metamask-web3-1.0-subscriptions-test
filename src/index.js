@@ -1,17 +1,6 @@
 // Importing the latest version from NPM
 const Web3 = require('web3')
 
-const ZeroClientProvider = require('web3-provider-engine/zero')
-
-// create engine
-// const zeroClientProvider = ZeroClientProvider({
-//     getAccounts: function() {},
-//     rpcUrl: "http://localhost:8545",
-//     originHttpHeaderKey: 'http://localhost'
-//     // rpcUrl: 'https://mainnet.infura.io',
-
-// })
-
 window.addEventListener('load', function() {
   if (typeof web3 !== 'undefined') {
     // const web3 = new Web3(new Web3.providers.HttpProvider('https://mainnet.infura.io'))

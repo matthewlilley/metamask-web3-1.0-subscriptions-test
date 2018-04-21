@@ -20,8 +20,5 @@
     "webpack-cli": "^2.0.13",
     "webpack-dev-middleware": "^3.0.1",
     "webpack-dev-server": "^3.1.1"
-  },
-  "dependencies": {
-    "web3-provider-engine": "github:matthewlilley/provider-engine"
   }
 }
